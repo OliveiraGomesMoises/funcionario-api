@@ -43,7 +43,6 @@ public class Funcionario {
 	private LocalDateTime dataHoraAlteracao;
 
 	public Funcionario(FuncionarioRequest funcionarioRequest) {
-		this.idFuncionario = UUID.randomUUID();
 		this.nome = funcionarioRequest.getNome();
 		this.designacao = funcionarioRequest.getDesignacao();
 		this.salario = funcionarioRequest.getSalario();
